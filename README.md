@@ -5,6 +5,6 @@ Each bit is considered to be a node which is assigned once using an NOT, an AND,
 
 The graph is deterministic and the structure does not change for different inputs. Though the values the nodes are set to depend on the inputs. 
 
-The input nodes are set at the start, all other nodes have either one precedent (when a NOT operator is used) or two precedents in the case when an XOR or AND is used. 
+The input nodes are set at the start, all other nodes have either one precedent (when a NOT operator is used) or two precedents (when an XOR or AND is used). 
 
 This algorithm does not try to be fast! If you want a quick implementation of Sha256 written in Java then don't use this code.
