@@ -9,4 +9,4 @@ The input nodes are set at the start, all other nodes have either one precedent 
 
 This algorithm does not try to be fast! If you want a quick implementation of Sha256 written in Java then don't use this code.
 
-In my blog [at this link](https://abitofmaths.blogspot.com/2022/06/she256-hashing-algorithm-as-directed.html) I discuss what the code in this repository is trying to achieve.
+In my blog ([at this link](https://abitofmaths.blogspot.com/2022/06/she256-hashing-algorithm-as-directed.html)) I discuss what the code in this repository is trying to achieve.
