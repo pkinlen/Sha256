@@ -3,7 +3,7 @@ This project, written in Java, shows how the Sha256 Hashing algorithm can be con
 
 Each bit is considered to be a node which is assigned once using a NOT, an AND, or an XOR. 
 
-The graph is deterministic and the structure does not change for different inputs. Though the values the nodes are do depend on the inputs. 
+The graph is deterministic and the structure does not change for different inputs. Though the value that each node is assigned to does depend on the inputs. 
 
 The input nodes are set at the start, all other nodes have either one precedent (when a NOT operator is used) or two precedents (when an XOR or AND is used). 
 
